@@ -20,9 +20,9 @@ jobs:
       - run: npx @orbit-love/reddit --posts --comments --hours=1 --subreddit "${{ matrix.subreddit }}"
         name: 'Get Posts & Add to Orbit'
         env:
-          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID}}
-          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET}}
-          REDDIT_USERNAME: ${{ secrets.REDDIT_USERNAME}}
+          REDDIT_CLIENT_ID: ${{ secrets.G3qRCzLJL4cUXPONhjyYtw}}
+          REDDIT_CLIENT_SECRET: ${{ secrets.vTkj94DXUJJcU-Y6hbddu1T_-ptJbQ}}
+          REDDIT_USERNAME: ${{ secrets.gxjansen}}
           REDDIT_PASSWORD: ${{ secrets.REDDIT_PASSWORD}}
-          ORBIT_API_KEY: ${{ secrets.ORBIT_API_KEY}}
-          ORBIT_WORKSPACE_ID: ${{ secrets.ORBIT_WORKSPACE_ID}}
+          ORBIT_API_KEY: ${{ secrets.obu_C5nsoOwhfxcGFGzyTFGbtAIWgYXqmIpd_02QZQYJ}}
+          ORBIT_WORKSPACE_ID: ${{ secrets.spryker}}
